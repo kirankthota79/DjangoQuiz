@@ -1,0 +1,9 @@
+/* static/css/style.css */
+
+/* Set the background color for the entire web page */
+body {
+    background-color: hwb(175 10% 39%); /* Light blue background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

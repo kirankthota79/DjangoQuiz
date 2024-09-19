@@ -1,0 +1,19 @@
+
+{% extends 'PyQuiz/base.html' %}
+
+
+
+{% block content %}
+<form id="exam-form">
+    <div class="mb-4">
+        {% for  post in posts %}
+        <h1>{{ post.Question}}</h1>
+        <div class="form-check">
+        {% comment %} <input class="form-check-input"  name={count} id={count}a  value='True'>  {% endcomment %}
+        <label class="form-check-label" >{{ post.Answer }}</label> 
+            </div>
+            
+    {% endfor %}
+    </div>
+</form>
+{% endblock content %}
